@@ -9,7 +9,7 @@ INSTALLED_APPS = (
 
 Then in your template, include the oembed tags
 {{{
-{% include oembed_tags %}
+{% load oembed_tags %}
 }}}
 
 Then, surround something with the oembed tag.  It will search for oembed-able links and replace them with the proper embed:
